@@ -4,7 +4,7 @@ A MDM é uma plataforma de inteligência de dados baseada em comportamento do us
 
 ## SDK
 
-O SDK é composto de módulos
+O SDK é composto dos seguintes módulos:
 
 * Core (não há .aar para este módulo)
 * Geo Behavior
