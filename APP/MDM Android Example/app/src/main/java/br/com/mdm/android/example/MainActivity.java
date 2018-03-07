@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         banner = (SASBannerView) findViewById(R.id.banner);
         interstitial = new SASInterstitialView(this);
 
-        MDMAd.loadAd(this, banner, true, "ARROBA", "HOME", null);
+        MDMAd.loadAd(this, banner, false, "ARROBA", "HOME", null);
         MDMAd.loadAd(this, interstitial, true, "INTERSTITIAL", "HOME", null);
     }
 
