@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "br.com.mdm.android.example"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 300
+        versionName "3.0.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.3.1'
+
+    // MDM Bundle
+    compile "br.com.hands.mdm.libs.android:mdm-bundle:3.0.0"
+
+    // MDM Módulos
+    // compile "br.com.hands.mdm.libs.android:mdm-geobehavior:3.0.0"
+    // compile "br.com.hands.mdm.libs.android:mdm-appbehavior:3.0.0"
+    // compile "br.com.hands.mdm.libs.android:mdm-ad:3.0.0"
+    // compile "br.com.hands.mdm.libs.android:mdm-notification:3.0.0"
+}
+apply plugin: 'com.google.gms.google-services'

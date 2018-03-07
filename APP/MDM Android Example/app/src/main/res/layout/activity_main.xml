@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EEEEEE"
+    tools:context="br.com.hands.apps.example.MainActivity">
+
+    <com.smartadserver.android.library.SASBannerView
+        android:id="@+id/banner"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_alignTop="@+id/mdmId"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Powered by Hands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/poweredByHands"
+        android:layout_marginBottom="12dp"
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/mdmLabel"
+        android:textColor="#404040"
+        android:textSize="16sp"
+        android:layout_marginTop="118dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="466px"
+        android:layout_height="144px"
+        app:srcCompat="@mipmap/mdmlogo"
+        android:id="@+id/mdmLogo"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:textColor="#404040"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:gravity="center"
+        android:id="@+id/mdmId"
+        android:alpha="0"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignTop="@+id/mdmLabel"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

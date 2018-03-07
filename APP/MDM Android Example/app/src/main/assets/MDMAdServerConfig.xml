@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <server value="http://mobile.smartadserver.com" />
+    <publisher value="120476" />
+
+    <formats>
+        <format id="INTERSTITIAL" value="20529" />
+        <format id="ARROBA" value="23485" />
+        <format id="TOP" value="19081" />
+    </formats>
+
+    <screens>
+        <screen id="HOME" value="707794" />
+    </screens>
+</config>
