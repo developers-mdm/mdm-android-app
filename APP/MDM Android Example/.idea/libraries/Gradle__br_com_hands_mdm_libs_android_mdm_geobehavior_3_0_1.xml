@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.hands.mdm.libs.android:mdm-geobehavior-3.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-geobehavior-3.0.1.aar/3c11f719f8b400c83437fafe57d2ea9e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-geobehavior-3.0.1.aar/3c11f719f8b400c83437fafe57d2ea9e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

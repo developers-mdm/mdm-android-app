@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.hands.mdm.libs.android:mdm-appbehavior-3.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-appbehavior-3.0.1.aar/65ec87fafbf94578bdb3e4f369afa935/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-appbehavior-3.0.1.aar/65ec87fafbf94578bdb3e4f369afa935/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
