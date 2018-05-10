@@ -13,8 +13,13 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import com.smartadserver.android.library.SASBannerView;
 import com.smartadserver.android.library.SASInterstitialView;
 
+import java.util.List;
+
 import br.com.hands.mdm.libs.android.ad.MDMAd;
 import br.com.hands.mdm.libs.android.appbehavior.MDMAppBehavior;
+import br.com.hands.mdm.libs.android.core.MDMCore;
+import br.com.hands.mdm.libs.android.core.http.RunOnTrackFinishes;
+import br.com.hands.mdm.libs.android.core.models.MDMAudience;
 import br.com.hands.mdm.libs.android.geobehavior.MDMGeoBehavior;
 import br.com.hands.mdm.libs.android.notification.MDMNotification;
 

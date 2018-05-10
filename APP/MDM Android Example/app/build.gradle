@@ -8,8 +8,8 @@ android {
         applicationId "br.com.mdm.android.example"
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 300
-        versionName "3.0.0"
+        versionCode 301
+        versionName "3.0.1"
         multiDexEnabled true
     }
     buildTypes {
@@ -33,9 +33,9 @@ dependencies {
     implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.0.1"
 
     // MDM Módulos
-    // compile "br.com.hands.mdm.libs.android:mdm-geobehavior:3.0.0"
-    // compile "br.com.hands.mdm.libs.android:mdm-appbehavior:3.0.0"
-    // compile "br.com.hands.mdm.libs.android:mdm-ad:3.0.0"
-    // compile "br.com.hands.mdm.libs.android:mdm-notification:3.0.0"
+    // compile "br.com.hands.mdm.libs.android:mdm-geobehavior:3.0.1"
+    // compile "br.com.hands.mdm.libs.android:mdm-appbehavior:3.0.1"
+    // compile "br.com.hands.mdm.libs.android:mdm-ad:3.0.1"
+    // compile "br.com.hands.mdm.libs.android:mdm-notification:3.0.1"
 }
 apply plugin: 'com.google.gms.google-services'
