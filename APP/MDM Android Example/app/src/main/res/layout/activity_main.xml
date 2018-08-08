@@ -15,9 +15,9 @@
         android:id="@+id/banner"
         android:layout_width="300dp"
         android:layout_height="250dp"
-        android:layout_alignTop="@+id/mdmId"
-        android:layout_marginTop="32dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp" />
 
     <TextView
         android:text="Powered by Hands"
@@ -30,16 +30,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/mdmLabel"
-        android:textColor="#404040"
-        android:textSize="16sp"
-        android:layout_marginTop="118dp"
-        android:layout_centerHorizontal="true" />
-
     <ImageView
         android:layout_width="466px"
         android:layout_height="144px"
@@ -48,24 +38,5 @@
         android:layout_marginTop="18dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="none"
-        android:ems="10"
-        android:textColor="#404040"
-        android:textSize="15sp"
-        android:enabled="false"
-        android:gravity="center"
-        android:id="@+id/mdmId"
-        android:alpha="0"
-        android:background="@drawable/rounded_edittext"
-        android:layout_alignTop="@+id/mdmLabel"
-        android:layout_marginTop="32dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

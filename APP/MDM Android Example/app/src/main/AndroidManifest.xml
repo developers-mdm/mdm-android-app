@@ -19,16 +19,7 @@
         </activity>
 
         <service
-            android:name="br.com.hands.mdm.libs.android.notification.services.messaging.MDMTokenService"
-            android:exported="false"
-            android:stopWithTask="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-            </intent-filter>
-        </service>
-
-        <service
-            android:name="br.com.hands.mdm.libs.android.notification.services.messaging.MDMMessagingService"
+            android:name="br.com.hands.mdm.libs.android.notification.services.MDMMessagingService"
             android:exported="false"
             android:stopWithTask="false">
             <intent-filter>
