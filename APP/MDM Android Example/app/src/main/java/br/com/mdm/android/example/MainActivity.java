@@ -1,31 +1,19 @@
 package br.com.mdm.android.example;
 
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.EditText;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.firebase.messaging.FirebaseMessagingService;
 import com.smartadserver.android.library.SASBannerView;
 import com.smartadserver.android.library.SASInterstitialView;
 
-import java.util.List;
-
 import br.com.hands.mdm.libs.android.ad.MDMAd;
 import br.com.hands.mdm.libs.android.appbehavior.MDMAppBehavior;
-import br.com.hands.mdm.libs.android.core.MDMCore;
-import br.com.hands.mdm.libs.android.core.http.RunOnTrackFinishes;
-import br.com.hands.mdm.libs.android.core.models.MDMAudience;
-import br.com.hands.mdm.libs.android.core.models.MDMUser;
 import br.com.hands.mdm.libs.android.geobehavior.MDMGeoBehavior;
-import br.com.hands.mdm.libs.android.notification.MDMNotification;
 
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
     private SASBannerView banner;
