@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.hands.mdm.libs.android:mdm-ad-3.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-ad-3.2.3.aar/c42293f203c7ed6fec58a3c93e472d2b/jars/libs/SmartAdServer-Android-SDK-6.4.1.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-ad-3.2.3.aar/c42293f203c7ed6fec58a3c93e472d2b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-ad-3.2.3.aar/c42293f203c7ed6fec58a3c93e472d2b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
