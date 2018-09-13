@@ -10,6 +10,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.smartadserver.android.library.SASBannerView;
 import com.smartadserver.android.library.SASInterstitialView;
+import com.smartadserver.android.library.model.SASAdElement;
+import com.smartadserver.android.library.ui.SASAdView;
 
 import br.com.hands.mdm.libs.android.ad.MDMAd;
 import br.com.hands.mdm.libs.android.appbehavior.MDMAppBehavior;
@@ -37,7 +39,17 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         interstitial = new SASInterstitialView(this);
 
         MDMAd.loadAd(this, banner, false, "ARROBA", "HOME", null);
-        MDMAd.loadAd(this, interstitial, true, "INTERSTITIAL", "HOME", null);
+        MDMAd.loadAd(this, interstitial, true, "INTERSTITIAL", "HOME", new SASAdView.AdResponseHandler() {
+            @Override
+            public void adLoadingCompleted(SASAdElement sasAdElement) {
+
+            }
+
+            @Override
+            public void adLoadingFailed(Exception e) {
+
+            }
+        });
     }
 
     // Método exemplo para pedir permissão de geolocalização
