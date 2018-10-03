@@ -8,8 +8,8 @@ android {
         applicationId "br.com.mdm.android.example"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 325
-        versionName "3.2.5"
+        versionCode 327
+        versionName "3.2.7"
         multiDexEnabled true
     }
     buildTypes {
@@ -30,12 +30,12 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
 
     // MDM Bundle
-    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.2.5"
+    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.2.7"
 
     // MDM Módulos
-    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.2.5"
-    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.2.5"
-    // implementation "br.com.hands.mdm.libs.android:mdm-ad:3.2.5"
-    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.2.5"
+    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.2.7"
+    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.2.7"
+    // implementation "br.com.hands.mdm.libs.android:mdm-ad:3.2.7"
+    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.2.7"
 }
 apply plugin: 'com.google.gms.google-services'

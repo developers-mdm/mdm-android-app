@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.hands.mdm.libs.android:mdm-notification-3.2.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-notification-3.2.7.aar/0e898557d6a0976a9b0312a6c3082a60/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mdm-notification-3.2.7.aar/0e898557d6a0976a9b0312a6c3082a60/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
