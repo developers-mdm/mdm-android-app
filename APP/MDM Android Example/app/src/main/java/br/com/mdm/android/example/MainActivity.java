@@ -13,9 +13,10 @@ import com.smartadserver.android.library.SASInterstitialView;
 import com.smartadserver.android.library.model.SASAdElement;
 import com.smartadserver.android.library.ui.SASAdView;
 
-import br.com.hands.mdm.libs.android.ad.MDMAd;
+
 import br.com.hands.mdm.libs.android.appbehavior.MDMAppBehavior;
 import br.com.hands.mdm.libs.android.geobehavior.MDMGeoBehavior;
+import br.com.hands.mdm.libs.android.ad.MDMAd;
 
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
     private SASBannerView banner;

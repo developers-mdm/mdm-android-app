@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.com.mdm.android.example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.mdm.android.example">
 
     <application
         android:name="br.com.mdm.android.example.Application"
@@ -7,7 +9,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="MDM Example"
         android:supportsRtl="true"
-        android:theme="@style/NoHeaderAppTheme">
+        android:theme="@style/NoHeaderAppTheme"
+        tools:replace="android:label">
 
         <activity
             android:name="br.com.mdm.android.example.MainActivity"
