@@ -17,7 +17,7 @@ allprojects {
     repositories {
         jcenter()
         google()
-        maven { url "http://nexus.hands.com.br/nexus/repository/maven-repository/" }
+        maven { url "http://nexus.hands.com.br/repository/maven-repository/" }
     }
 }
 
