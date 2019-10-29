@@ -30,12 +30,12 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
 
     // MDM Bundle
-    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.3.6"
+    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.4.0"
 
     // MDM Módulos
-    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.3.6"
-    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.3.6"
-    // implementation "br.com.hands.mdm.libs.android:mdm-ad:3.3.6"
-    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.3.6"
+    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.4.0"
+    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.4.0"
+    // implementation "br.com.hands.mdm.libs.android:mdm-ad:3.4.0"
+    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.4.0"
 }
 apply plugin: 'com.google.gms.google-services'
