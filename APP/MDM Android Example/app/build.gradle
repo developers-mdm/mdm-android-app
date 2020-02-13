@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 //    buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "br.com.mdm.android.example"
         minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 330
-        versionName "3.3.0"
+        targetSdkVersion 29
+        versionCode 351
+        versionName "3.5.1"
         multiDexEnabled true
     }
     buildTypes {
@@ -27,10 +27,10 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
 
     // MDM Bundle
-    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.4.0"
+    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.5.1"
 
     // MDM Módulos
     // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.4.0"

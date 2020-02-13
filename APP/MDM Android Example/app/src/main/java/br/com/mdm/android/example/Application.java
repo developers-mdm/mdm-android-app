@@ -22,7 +22,6 @@ public class Application extends android.app.Application {
         // Start de cada módulo separadamente
         // MDMGeoBehavior.start(getApplicationContext());
         // MDMAppBehavior.start(getApplicationContext());
-        // MDMAd.start(getApplicationContext());
         // MDMNotification.start(getApplicationContext());
     }
     @Override

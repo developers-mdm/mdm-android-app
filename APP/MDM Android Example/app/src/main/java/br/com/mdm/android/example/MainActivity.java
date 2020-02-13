@@ -1,26 +1,19 @@
 package br.com.mdm.android.example;
 
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.smartadserver.android.library.SASBannerView;
-import com.smartadserver.android.library.SASInterstitialView;
-import com.smartadserver.android.library.model.SASAdElement;
-import com.smartadserver.android.library.ui.SASAdView;
-
 
 import br.com.hands.mdm.libs.android.appbehavior.MDMAppBehavior;
 import br.com.hands.mdm.libs.android.geobehavior.MDMGeoBehavior;
-import br.com.hands.mdm.libs.android.ad.MDMAd;
 
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
-    private SASBannerView banner;
-    private SASInterstitialView interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,23 +27,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         if (!MDMAppBehavior.hasPermissionToRun(getApplicationContext())) {
             MDMAppBehavior.askPermission(this);
         }
-
-        // Apresenta os banners dos IDs de formato e página do arquivo de configuração MDMAdServerConfig.xml
-        banner = (SASBannerView) findViewById(R.id.banner);
-        interstitial = new SASInterstitialView(this);
-
-        MDMAd.loadAd(this, banner, false, "ARROBA", "HOME", null);
-        MDMAd.loadAd(this, interstitial, true, "INTERSTITIAL", "HOME", new SASAdView.AdResponseHandler() {
-            @Override
-            public void adLoadingCompleted(SASAdElement sasAdElement) {
-
-            }
-
-            @Override
-            public void adLoadingFailed(Exception e) {
-
-            }
-        });
     }
 
     // Método exemplo para pedir permissão de geolocalização
@@ -70,11 +46,17 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         if (ActivityCompat.checkSelfPermission(getApplicationContext(),
                 android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(getApplicationContext(),
-                android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(getApplicationContext(),
+                android.Manifest.permission.ACCESS_BACKGROUND_LOCATION) != PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(getApplicationContext(),
+                android.Manifest.permission.ACTIVITY_RECOGNITION) != PackageManager.PERMISSION_GRANTED) {
             // Requisitar permissão de geolocalização
             ActivityCompat.requestPermissions(this, new String[]{
                     android.Manifest.permission.ACCESS_COARSE_LOCATION,
-                    android.Manifest.permission.ACCESS_FINE_LOCATION
+                    android.Manifest.permission.ACCESS_FINE_LOCATION,
+                    android.Manifest.permission.ACCESS_BACKGROUND_LOCATION,
+                    android.Manifest.permission.ACTIVITY_RECOGNITION
             }, 200);
         }
     }

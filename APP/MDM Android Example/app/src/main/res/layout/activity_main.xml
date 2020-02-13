@@ -11,13 +11,13 @@
     android:background="#EEEEEE"
     tools:context="br.com.mdm.android.example.MainActivity">
 
-    <com.smartadserver.android.library.SASBannerView
+    <!-- <com.smartadserver.android.library.SASBannerView
         android:id="@+id/banner"
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="64dp" />
+        android:layout_marginBottom="64dp" /> -->
 
     <TextView
         android:text="Powered by Hands"

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.hands.mdm.libs.android:mdm-core:3.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c0330b8d8fb520b6d75f0b13748c507/mdm-core-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c0330b8d8fb520b6d75f0b13748c507/mdm-core-3.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
