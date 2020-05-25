@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MDM Android Example.iml" filepath="$PROJECT_DIR$/MDM Android Example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MDM Android Example.iml" filepath="$PROJECT_DIR$/MDM Android Example.iml" group="MDM Android Example" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MDM Android Example/app" />
     </modules>
   </component>
 </project>

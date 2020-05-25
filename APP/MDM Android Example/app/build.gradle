@@ -8,13 +8,15 @@ android {
         applicationId "br.com.mdm.android.example"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 351
-        versionName "3.5.1"
+        versionCode 361
+        versionName "3.6.1"
         multiDexEnabled true
     }
     buildTypes {
         release {
+            debuggable true
             minifyEnabled false
+            signingConfig signingConfigs.debug
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -30,12 +32,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
     // MDM Bundle
-    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.5.1"
+    implementation "br.com.hands.mdm.libs.android:mdm-bundle:3.6.1"
 
     // MDM Módulos
-    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.4.0"
-    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.4.0"
-    // implementation "br.com.hands.mdm.libs.android:mdm-ad:3.4.0"
-    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.4.0"
+    // implementation "br.com.hands.mdm.libs.android:mdm-geobehavior:3.6.1"
+    // implementation "br.com.hands.mdm.libs.android:mdm-appbehavior:3.6.1"
+    // implementation "br.com.hands.mdm.libs.android:mdm-notification:3.6.1"
 }
 apply plugin: 'com.google.gms.google-services'
