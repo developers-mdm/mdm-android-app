@@ -22,7 +22,7 @@
         </activity>
 
         <service
-            android:name="br.com.hands.mdm.libs.android.notification.services.MDMMessagingService"
+            android:name="br.com.mdm.android.example.MessagingService"
             android:exported="false"
             android:stopWithTask="false">
             <intent-filter>
