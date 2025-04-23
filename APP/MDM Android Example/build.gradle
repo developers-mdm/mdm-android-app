@@ -8,8 +8,8 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.4'
-        classpath 'com.google.gms:google-services:4.3.8'
+        classpath 'com.android.tools.build:gradle:8.4.2'
+        classpath 'com.google.gms:google-services:4.3.5'
     }
 }
 
@@ -17,7 +17,7 @@ allprojects {
     repositories {
         jcenter()
         google()
-        maven { url "http://nexus.hands.com.br/repository/maven-repository/" }
+        maven { url "https://nexus.hands.com.br/repository/maven-repository/" }
     }
 }
 
