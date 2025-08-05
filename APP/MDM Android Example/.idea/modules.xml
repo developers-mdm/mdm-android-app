@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MDM Android Example.iml" filepath="$PROJECT_DIR$/MDM Android Example.iml" group="MDM Android Example" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MDM Android Example/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MDM_Android_Example.iml" filepath="$PROJECT_DIR$/.idea/modules/MDM_Android_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MDM_Android_Example.app.unitTest.iml" />
     </modules>
   </component>
 </project>
